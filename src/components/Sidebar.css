@@ -1,0 +1,46 @@
+.sidebar {
+  width: 100px;
+  background-color: #1f1f1f;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.subject-link {
+  transition: transform 0.3s;
+}
+
+.subject-link:hover {
+  transform: scale(1.1);
+}
+
+/* Circular icon with glow effect */
+.subject-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #bb86fc;
+  object-fit: cover;
+  transition: box-shadow 0.3s;
+}
+
+.subject-icon:hover {
+  box-shadow: 0 0 12px 4px #bb86fc;
+}
+
+.subject-name {
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.home-btn {
+  font-size: 2rem;
+  color: #bb86fc;
+  transition: transform 0.3s;
+}
+
+.home-btn:hover {
+  transform: rotate(10deg);
+  color: white;
+}

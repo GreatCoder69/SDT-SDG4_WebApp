@@ -1,0 +1,108 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* 🔥 disables horizontal scroll */
+  background-color: #121212;
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homepage-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  box-sizing: border-box;
+  padding: 40px;
+  padding-left: 100px; /* left offset for sidebar */
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 3rem;
+  color: #bb86fc;
+  text-shadow: 0 0 10px #bb86fc;
+  margin-bottom: 2rem;
+}
+
+.goals-section {
+  margin-bottom: 3rem;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.video-section iframe {
+  width: 100%;
+  max-width: 800px;
+  height: 450px;
+  border-radius: 12px;
+  border: 2px solid #444;
+  box-shadow: 0 0 15px rgba(187, 134, 252, 0.5);
+}
+
+.quiz-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #bb86fc;
+  margin-bottom: 1rem;
+}
+
+.quiz-description {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #dddddd;
+}
+
+.quiz-btn {
+  display: block;
+  margin: 0 auto 3rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #bb86fc;
+  background: transparent;
+  border: 2px solid #bb86fc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.quiz-btn:hover {
+  background-color: #bb86fc;
+  color: #121212;
+}
+
+.group-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #bb86fc;
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
+.group-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+.goals-section {
+  margin-bottom: 3rem;
+  line-height: 1.8;
+  font-size: 1.2rem; /* Reduced size for better balance */
+  color: #cccccc;
+  padding: 0 150px; /* Increased left and right padding */
+  text-align: center;
+}
