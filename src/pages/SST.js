@@ -8,7 +8,7 @@ const topics = [
     description:
       "History is the study of past events, particularly in human affairs. It helps us understand how societies have evolved, the causes of conflicts, the achievements of past civilizations, and how historical events shape modern-day societies. From ancient civilizations to modern history, history is key to understanding the present.",
     pdf: "https://www.history.com/topics/ancient-history/ancient-history",
-    video: "https://www.youtube.com/embed/7NngnP3bmlQ",
+    video: "https://www.youtube.com/embed/hLE-5ElGlPM",
   },
   {
     id: "geography",
@@ -16,7 +16,7 @@ const topics = [
     description:
       "Geography is the study of places, environments, and the relationships between people and their environments. It encompasses both the physical features of the Earth and human geography. Geography helps us understand the location of places, climate patterns, and how humans impact the planet.",
     pdf: "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/geography",
-    video: "https://www.youtube.com/embed/IoBqrfyMBqI",
+    video: "https://www.youtube.com/embed/93LLwiMjDko",
   },
   {
     id: "political-science",
@@ -24,7 +24,7 @@ const topics = [
     description:
       "Political Science is the study of politics, government systems, and political behavior. It examines the theory and practice of politics, the structure and functioning of governments, and the impact of political decisions on society. Topics include democracy, international relations, and policy-making.",
     pdf: "https://www.politicalscience.org",
-    video: "https://www.youtube.com/embed/Ld7YIuV1nMI",
+    video: "https://www.youtube.com/embed/YzIcWW3FWSQ",
   },
   {
     id: "economics",
@@ -32,7 +32,7 @@ const topics = [
     description:
       "Economics is the study of how societies allocate resources to produce goods and services and distribute them among individuals. It involves analyzing production, consumption, and trade. Economics plays a critical role in shaping policies that address inflation, unemployment, and economic growth.",
     pdf: "https://www.imf.org/external/pubs/ft/fandd/2018/09/what-is-economics/cs.pdf",
-    video: "https://www.youtube.com/embed/2l9KnChdIWI",
+    video: "https://www.youtube.com/embed/3ez10ADR_gM",
   },
   {
     id: "sociology",
@@ -40,7 +40,7 @@ const topics = [
     description:
       "Sociology is the study of society, social institutions, and social relationships. It focuses on how individuals interact with one another within groups, communities, and organizations. Key topics include social stratification, race, gender, family, and the effects of social changes on communities.",
     pdf: "https://www.sociologyguide.com",
-    video: "https://www.youtube.com/embed/KmDtV86L3lI",
+    video: "https://www.youtube.com/embed/YnCJU6PaCio",
   },
   {
     id: "anthropology",
@@ -48,7 +48,7 @@ const topics = [
     description:
       "Anthropology is the study of humans, their societies, cultures, and their development over time. It looks at human origins, cultural diversity, social behaviors, and the biological aspects of human beings. Anthropologists study both ancient and contemporary societies to understand human evolution and cultural practices.",
     pdf: "https://www.jstor.org/stable/27852344",
-    video: "https://www.youtube.com/embed/DmK3s10Am3M",
+    video: "https://www.youtube.com/embed/LYUzIf12qac",
   },
 ];
 

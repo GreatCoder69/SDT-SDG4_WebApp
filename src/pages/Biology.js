@@ -8,7 +8,7 @@ const topics = [
     description:
       "Cell Biology is the study of the structure and function of cells, the basic building blocks of life. This field includes the study of organelles, cell division, cellular respiration, and the role of cells in the overall functioning of organisms.",
     pdf: "https://www.ncbi.nlm.nih.gov/books/NBK21425/",
-    video: "https://www.youtube.com/embed/1ZhaQoVFEA0",
+    video: "https://www.youtube.com/embed/8IlzKri08kk",
   },
   {
     id: "genetics",
@@ -16,7 +16,7 @@ const topics = [
     description:
       "Genetics is the study of genes, heredity, and variation in living organisms. It explores how traits are passed from parents to offspring, and how genetic information is inherited. Key topics include DNA structure, gene expression, and mutations.",
     pdf: "https://www.genetics.org/content/early/2020/07/07/genetics.120.303701",
-    video: "https://www.youtube.com/embed/4UzzFu6Qov4",
+    video: "https://www.youtube.com/embed/8m6hHRlKwxY",
   },
   {
     id: "evolution",
@@ -24,7 +24,7 @@ const topics = [
     description:
       "Evolution is the process by which species of organisms change over time through variations and natural selection. It is a cornerstone of biological sciences and helps explain the diversity of life. Major topics include natural selection, speciation, and phylogenetics.",
     pdf: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5311109/",
-    video: "https://www.youtube.com/embed/2v4s57zdv5s",
+    video: "https://www.youtube.com/embed/fI7IV3x-dGI",
   },
   {
     id: "ecology",
@@ -32,7 +32,7 @@ const topics = [
     description:
       "Ecology is the study of interactions between organisms and their environment. It focuses on the distribution and abundance of organisms, energy flow, and ecosystem dynamics. Topics include food chains, ecological niches, and the impact of human activity on the environment.",
     pdf: "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/ecology",
-    video: "https://www.youtube.com/embed/4Bbi2xgl4O0",
+    video: "https://www.youtube.com/embed/aO3Yp45zmw8",
   },
   {
     id: "human-anatomy",
@@ -40,7 +40,7 @@ const topics = [
     description:
       "Human Anatomy is the study of the structure of the human body. It covers the various systems of the body such as the circulatory, respiratory, digestive, and nervous systems, as well as the bones, muscles, and organs that make up the human body.",
     pdf: "https://www.ncbi.nlm.nih.gov/mesh/68008434",
-    video: "https://www.youtube.com/embed/Wb3Jt1vzyDI",
+    video: "https://www.youtube.com/embed/uBGl2BujkPQ",
   },
   {
     id: "physiology",
@@ -48,7 +48,7 @@ const topics = [
     description:
       "Physiology is the study of how the body functions and how its various parts interact to maintain homeostasis. Topics include how organs like the heart, lungs, and kidneys function in a coordinated manner, and how the body responds to stress, exercise, and disease.",
     pdf: "https://www.ncbi.nlm.nih.gov/books/NBK327804/",
-    video: "https://www.youtube.com/embed/B_M7hO2B0oI",
+    video: "https://www.youtube.com/embed/6qk_LTVXZ2w",
   },
 ];
 

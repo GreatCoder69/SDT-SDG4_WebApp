@@ -7,7 +7,7 @@ const topics = [
     description:
       "Physics is the study of matter, energy, and the fundamental forces of nature. It helps us understand the universe from the smallest particles to the largest galaxies. Concepts like motion, force, energy, and thermodynamics are key to fields like engineering, technology, and environmental science.",
     pdf: "https://openstax.org/books/physics/pages/1-1-introduction-to-physics",
-    video: "https://www.youtube.com/embed/2mpjLNmqu38", // Updated YouTube embed link
+    video: "https://www.youtube.com/embed/yWMKYID5fr8", // Updated YouTube embed link
   },
   {
     id: "chemistry",
@@ -15,7 +15,7 @@ const topics = [
     description:
       "Chemistry is the branch of science that studies the composition, structure, properties, and reactions of matter. It bridges physics and biology, helping us understand everything from chemical reactions in the lab to biochemical processes in living organisms. Chemistry is essential for fields like pharmaceuticals, environmental science, and materials engineering.",
     pdf: "https://openstax.org/books/chemistry/pages/1-1-introduction-to-chemistry",
-    video: "https://www.youtube.com/embed/1sLFl8n3gRg", // Updated YouTube embed link
+    video: "https://www.youtube.com/embed/vsOCUZaxA58", // Updated YouTube embed link
   },
   {
     id: "biology",
@@ -23,7 +23,7 @@ const topics = [
     description:
       "Biology is the study of life, from the molecular level to entire ecosystems. It examines how living organisms grow, reproduce, evolve, and interact with each other and their environment. Biology is fundamental to health and medicine, environmental conservation, and understanding the natural world.",
     pdf: "https://openstax.org/books/biology/pages/1-1-introduction",
-    video: "https://www.youtube.com/embed/1g0bR2PizBo", // Updated YouTube embed link
+    video: "https://www.youtube.com/embed/tZE_fQFK8EY", // Updated YouTube embed link
   },
   {
     id: "earth-science",
@@ -31,7 +31,7 @@ const topics = [
     description:
       "Earth science is the study of the Earth, including its structure, materials, and processes. It covers topics like geology, meteorology, oceanography, and environmental science. By understanding the Earth's past, present, and future, we can better address issues like climate change, natural disasters, and resource management.",
     pdf: "https://www.learner.org/courses/envsci/",
-    video: "https://www.youtube.com/embed/2Pgn2OH9dYo", // Updated YouTube embed link
+    video: "https://www.youtube.com/embed/SWbM8rpH2sM", // Updated YouTube embed link
   },
   {
     id: "astronomy",
@@ -39,7 +39,7 @@ const topics = [
     description:
       "Astronomy is the study of the universe beyond Earth, including stars, planets, galaxies, and other celestial bodies. It seeks to answer fundamental questions about the origins and nature of the universe. From understanding black holes to the search for extraterrestrial life, astronomy inspires us to explore the cosmos.",
     pdf: "https://openstax.org/books/astronomy/pages/1-1-introduction-to-astronomy",
-    video: "https://www.youtube.com/embed/wJGrt3bLmjY", // Updated YouTube embed link
+    video: "https://www.youtube.com/embed/0rHUDWjR5gg", // Updated YouTube embed link
   },
   {
     id: "environmental-science",
@@ -47,7 +47,7 @@ const topics = [
     description:
       "Environmental science is the study of the environment and the interactions between humans, ecosystems, and natural resources. It addresses critical issues like pollution, climate change, conservation, and sustainability. By studying environmental science, we can develop solutions to protect and restore our planet.",
     pdf: "https://openstax.org/books/environmental-science/pages/1-1-introduction-to-environmental-science",
-    video: "https://www.youtube.com/embed/1Pz_WzGH0ds", // Updated YouTube embed link
+    video: "https://www.youtube.com/embed/RoIpCJwX7-M", // Updated YouTube embed link
   },
 ];
 
@@ -116,6 +116,7 @@ export default function Science() {
               <iframe
                 src={topic.video}
                 title={`Video ${i}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               ></iframe>
             </div>

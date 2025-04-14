@@ -8,7 +8,7 @@ const topics = [
     description:
       "Data structures are ways of organizing and storing data for efficient access and modification. They are fundamental to computer science and help in solving problems such as searching, sorting, and indexing. Common data structures include arrays, linked lists, trees, and graphs.",
     pdf: "https://www.geeksforgeeks.org/data-structures/",
-    video: "https://www.youtube.com/embed/bumNqJ8wJ3Y",
+    video: "https://www.youtube.com/embed/4RLhuZ3N9nc",
   },
   {
     id: "algorithms",
@@ -24,7 +24,7 @@ const topics = [
     description:
       "Computer architecture deals with the design and organization of computer systems, including how hardware components work together. This involves understanding processors, memory, input/output systems, and how these components interact to perform tasks efficiently.",
     pdf: "https://www.cs.umd.edu/class/spring2016/cmsc212/lectures/",
-    video: "https://www.youtube.com/embed/JajUsF_4b9M",
+    video: "https://www.youtube.com/embed/HjneAhCy2N4?list=PL9vTTBa7QaQOoMfpP3ztvgyQkPWDPfJez",
   },
   {
     id: "operating-systems",
@@ -32,7 +32,7 @@ const topics = [
     description:
       "An operating system is software that manages computer hardware and software resources. It provides services for computer programs and controls the hardware components like the CPU, memory, and input/output devices. Topics include processes, threads, file systems, and resource management.",
     pdf: "https://www.geeksforgeeks.org/operating-systems/",
-    video: "https://www.youtube.com/embed/OSUbxJ5sY-8",
+    video: "https://www.youtube.com/embed/dOiA2nNJpc0",
   },
   {
     id: "databases",
@@ -40,7 +40,7 @@ const topics = [
     description:
       "Databases are systems for storing and retrieving large volumes of data efficiently. This topic includes the design, management, and querying of relational databases using SQL. It also covers NoSQL databases, data modeling, normalization, and indexing.",
     pdf: "https://www.geeksforgeeks.org/database-management-system-database-models/",
-    video: "https://www.youtube.com/embed/8-5phSpsF9A",
+    video: "https://www.youtube.com/embed/6Iu45VZGQDk",
   },
   {
     id: "networking",

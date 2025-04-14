@@ -8,25 +8,32 @@ import Biology from "./pages/Biology";
 import SST from "./pages/SST";
 import HomePage from "./pages/HomePage";
 import QuizPage from "./pages/QuizPage";
+import LoginPage from './pages/login';
+
+// reusable layout
+const WithSidebar = ({ children }) => (
+  <div className="d-flex">
+    <Sidebar />
+    <div className="flex-grow-1 p-4">
+      {children}
+    </div>
+  </div>
+);
 
 function App() {
   return (
     <Router>
-      <div className="d-flex">
-        <Sidebar />
-        <div className="flex-grow-1 p-4">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/maths" element={<Maths />} />
-            <Route path="/quiz" element={<QuizPage />} />
-            <Route path="/science" element={<Science />} />
-            <Route path="/english" element={<English />} />
-            <Route path="/cs" element={<CS />} />
-            <Route path="/biology" element={<Biology />} />
-            <Route path="/sst" element={<SST />} />
-          </Routes>
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/home" element={<WithSidebar><HomePage /></WithSidebar>} />
+        <Route path="/maths" element={<WithSidebar><Maths /></WithSidebar>} />
+        <Route path="/quiz" element={<WithSidebar><QuizPage /></WithSidebar>} />
+        <Route path="/science" element={<WithSidebar><Science /></WithSidebar>} />
+        <Route path="/english" element={<WithSidebar><English /></WithSidebar>} />
+        <Route path="/cs" element={<WithSidebar><CS /></WithSidebar>} />
+        <Route path="/biology" element={<WithSidebar><Biology /></WithSidebar>} />
+        <Route path="/sst" element={<WithSidebar><SST /></WithSidebar>} />
+      </Routes>
     </Router>
   );
 }

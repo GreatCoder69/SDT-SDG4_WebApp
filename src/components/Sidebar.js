@@ -13,7 +13,7 @@ const subjects = [
 export default function Sidebar() {
   return (
     <div className="sidebar d-flex flex-column align-items-center justify-content-center py-3">
-      <NavLink to="/" className="home-btn mb-4">
+      <NavLink to="/home" className="home-btn mb-4">
         <img
           src="/home.png"
           alt="Home"
